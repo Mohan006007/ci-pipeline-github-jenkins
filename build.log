@@ -1,0 +1,28 @@
+Started by GitHub push by Mohan006007
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/AutoTriggerBuild
+The recommended git tool is: NONE
+using credential githubtoken
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/AutoTriggerBuild/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Mohan006007/ci-pipeline-github-jenkins.git # timeout=10
+Fetching upstream changes from https://github.com/Mohan006007/ci-pipeline-github-jenkins.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/Mohan006007/ci-pipeline-github-jenkins.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 9821cbad209aa96709bdf0d33f504c1d58ba24a9 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9821cbad209aa96709bdf0d33f504c1d58ba24a9 # timeout=10
+Commit message: "Add Screenshots"
+ > git rev-list --no-walk 3f67df38ca5c252998d610d9c7a2ba29537d6775 # timeout=10
+No emails were triggered.
+[AutoTriggerBuild] $ /bin/sh -xe /tmp/jenkins17650421407516088108.sh
++ chmod +x hello.sh
++ ./hello.sh
+Hello, Jenkins!
+Email was triggered for: Always
+Sending email for trigger: Always
+Not sending mail to unregistered user (id: noreply, email: noreply@github.com) because your SCM claimed this was associated with a user ID 'noreply' which your security realm does not recognize; you may need changes in your SCM plugin
+Sending email to: kristy.awsdevops@gmail.com
