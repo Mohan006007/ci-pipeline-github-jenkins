@@ -16,7 +16,7 @@ This repository contains the Jenkins CI/CD pipeline setup for automating the bui
 ### 2. **Build Step Configuration**
    The build steps are configured to:
    - Pull the latest changes from the GitHub repository.
-   - Execute a shell script (if applicable) or build the necessary code.
+   - Execute a shell script or build the necessary code.
 
 ### 3. **Post-Build Actions**
    The post-build actions are configured to:
@@ -26,7 +26,7 @@ This repository contains the Jenkins CI/CD pipeline setup for automating the bui
      - **Content**: Included build status and log details.
 
 ### 4. **Build Trigger**
-   The build is triggered automatically when there are changes pushed to the `master` branch of the GitHub repository.
+   The build is automatically triggered when there are changes pushed to the `master` branch of the GitHub repository.
 
 ### 5. **Test and Confirmation**
    - I tested the pipeline by making a change to the GitHub repository and pushing it to the `master` branch.
@@ -35,16 +35,16 @@ This repository contains the Jenkins CI/CD pipeline setup for automating the bui
 
 ## Screenshots
 - **Jenkins Dashboard**
-   ![Jenkins Dashboard](./screenshots/jenkins_dashboard.png)
+   ![Jenkins Dashboard](./screenshots/jenkins-dashboard.png)
   
 - **Job Configuration**
-   ![Job Configuration](./screenshots/job_configuration.png)
+   ![Job Configuration](./screenshots/job-config.png)
 
 - **Build Output**
-   ![Build Output](./screenshots/build_output.png)
+   ![Build Output](./screenshots/build-output.png)
 
 - **Email Notification**
-   ![Email Notification](./screenshots/email_notification.png)
+   ![Email Notification](./screenshots/email-notification.png)
 
 ## Conclusion
-This setup demonstrates a fully automated Jenkins pipeline that pulls code from GitHub, runs the necessary build steps, and sends email notifications to the team on build status. The setup ensures quick feedback on changes and smooth integration with GitHub.
+This setup demonstrates a fully automated Jenkins pipeline that pulls code from GitHub, runs the necessary build steps, and sends email notifications to the team on build status. The pipeline ensures quick feedback on code changes and seamless integration with GitHub.
