@@ -1,3 +1,3 @@
 #!/bin/bash
 echo "Hello, Jenkins!"
-echo "Test"
+echo "Test Triggers"
